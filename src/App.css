@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  /* background: rgba(133, 194, 244, 0.419); */
+
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.homeBg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background: 100vh;
+}
+.deleteBasket span {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(128, 128, 128, 0.361);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.deleteBasket:hover {
+  cursor: pointer;
+  color: red;
+  transform: scale(1.1);
+  transition: 0.8s;
+
+}
+
+.history::-webkit-scrollbar {
+  overflow: hidden;
+}
+
+h5 span {
+  color: rgb(21, 21, 244);
+}
