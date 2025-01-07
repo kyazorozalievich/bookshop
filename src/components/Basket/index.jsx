@@ -105,7 +105,6 @@ const Basket = () => {
   //telegram
 
   //History
-  // let d = {new Date()}
   function createHistory() {
     let newProduct = {
       id: Date.now(),
